@@ -1,5 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <rect width="32" height="32" rx="6" fill="#111827"/>
-  <polygon points="16,4 28,16 16,28 4,16" fill="none" stroke="#ddeef6" stroke-width="1.5" opacity="0.9"/>
-  <polygon points="16,9 23,16 16,23 9,16" fill="#e8622a"/>
+  <!-- Fond clair comme le site -->
+  <rect width="32" height="32" rx="4" fill="#ddeef6"/>
+  <!-- Forme bouclier / pentagone pointant vers le bas -->
+  <polygon points="6,4 26,4 26,20 16,28 6,20" fill="#111827"/>
+  <!-- Carré orange centré dans la partie haute du bouclier -->
+  <rect x="12" y="8" width="8" height="8" fill="#e8622a"/>
 </svg>
